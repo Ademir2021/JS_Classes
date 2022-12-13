@@ -23,16 +23,43 @@
 /**
  * Classe Pessoa
  */
-var ID = 1
-var nome = "Ademir Souza de Almeida";
-var endereco = "Avenida Castro Alves";
-var email = "centroserra@gmail.com";
-var telefone = "44 98852-1033"
+// var ID = 1
+// var nome = "Ademir Souza de Almeida";
+// var endereco = "Avenida Castro Alves";
+// var email = "centroserra@gmail.com";
+// var telefone = "44 98852-1033"
 
-var pessoa = new Pessoa(ID, nome, endereco, email, telefone)
+// const pessoa = new Pessoa(ID, nome, endereco, email, telefone)
 
-console.log(pessoa.fPessoa())
-console.log(pessoa.getNome())
-//console.log(pessoa.nome)
+// console.log(pessoa.fPessoa())
+// console.log(pessoa.getNome())
+// //console.log(pessoa.nome)
 
+/**
+ * Classe Conta
+ */
+var deposito = 0;
+var saque = 0
+var banco = '0001';
+var ag = "222-4";
+var conta = '333-9';
+var correntista = "Ademir Souza de Almeida";
+var senha = '123abc';
+var sInicial = 22.20
+deposito = 20
+deposito = 10
+deposito = 34
+saque = 4
+saque = 2
+
+const conta1 = new Conta(banco,
+                    ag,
+                    conta,
+                    correntista,
+                    senha,
+                    sInicial,
+                    deposito,
+                    saque
+                    );
+console.log(conta1.getsAtual())
 
